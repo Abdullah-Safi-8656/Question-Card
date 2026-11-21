@@ -305,7 +305,7 @@ function App() {
     setCurIndex((prevIndex) =>
       prevIndex > 0 ? prevIndex - 1 : questions.length - 1,
     );
-    setCurIndex(0)
+    setIsFlipped(false)
   }
 
   function handleReset() {
